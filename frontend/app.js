@@ -1,4 +1,4 @@
-const socket = new WebSocket("wss://3h2jl37y0g.execute-api.eu-north-1.amazonaws.com/dev");
+const socket = new WebSocket("wss://5vm4i4f08c.execute-api.eu-north-1.amazonaws.com/dev/");
 
 socket.onopen = () => {
   console.log("Connected to WebSocket");
